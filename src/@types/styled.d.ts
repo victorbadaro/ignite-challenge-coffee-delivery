@@ -19,9 +19,8 @@ declare module 'styled-components' {
 			'base-button': string;
 			'base-input': string;
 			'base-card': string;
-
-			background: string;
-			white: string;
+			'base-background': string;
+			'base-white': string;
 		};
 	}
 }

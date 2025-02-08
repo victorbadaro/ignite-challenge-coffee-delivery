@@ -18,8 +18,7 @@ export const defaultTheme: DefaultTheme = {
 		'base-button': '#E6E5E5',
 		'base-input': '#EDEDED',
 		'base-card': '#F3F2F2',
-
-		background: '#FAFAFA',
-		white: '#FFFFFF'
+		'base-background': '#FAFAFA',
+		'base-white': '#FFFFFF'
 	}
 };
