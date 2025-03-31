@@ -10,7 +10,7 @@ export function Header() {
 			<div>
 				<nav>
 					<img src={logoImg} alt="Logo" />
-					<Button>LABEL</Button>
+					<Button variant="secondary">LABEL</Button>
 				</nav>
 			</div>
 		</HeaderContainer>
