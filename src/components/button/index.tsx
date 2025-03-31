@@ -1,5 +1,9 @@
+import type { ButtonHTMLAttributes } from 'react';
+
 import { ButtonContainer } from './styles';
 
-export function Button() {
-	return <ButtonContainer>Coffee</ButtonContainer>;
+type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>;
+
+export function Button({ children, ...rest }: ButtonProps) {
+	return <ButtonContainer {...rest}>{children}</ButtonContainer>;
 }
